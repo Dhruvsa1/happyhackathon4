@@ -1,5 +1,7 @@
 const OpenAI = require("openai");
-const openai = new OpenAI();
+const openai = new OpenAI({
+  apiKey: "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",
+});
 
 
 async function botResponse(messages) {

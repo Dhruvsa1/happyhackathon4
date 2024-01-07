@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Loading = () => {
   return (
     <motion.div
-      className="w-[20px] h-[20px] bg-black"
+      className="w-[10px] h-[10px] bg-gray-400"
       animate={{
         scale: [1, 2, 2, 1, 1],
         rotate: [0, 0, 180, 180, 0],
